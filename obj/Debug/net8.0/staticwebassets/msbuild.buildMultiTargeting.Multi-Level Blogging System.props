@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Multi-Level Blogging System.props" />
+</Project>

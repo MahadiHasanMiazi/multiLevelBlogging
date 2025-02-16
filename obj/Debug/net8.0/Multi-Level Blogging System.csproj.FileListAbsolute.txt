@@ -1,0 +1,158 @@
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/appsettings.Development.json
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/appsettings.json
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.deps.json
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.runtimeconfig.json
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.pdb
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.csproj.AssemblyReference.cache
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.AssemblyInfoInputs.cache
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.AssemblyInfo.cs
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.csproj.CoreCompileInputs.cache
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.MvcApplicationPartsAssemblyInfo.cs
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.MvcApplicationPartsAssemblyInfo.cache
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets.build.json
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets.development.json
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.Multi-Level Blogging System.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.build.Multi-Level Blogging System.props
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Multi-Level Blogging System.props
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Multi-Level Blogging System.props
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/scopedcss/bundle/Multi-Level Blogging System.styles.css
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Le.FC533EF9.Up2Date
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/refint/Multi-Level Blogging System.dll
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.pdb
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.genruntimeconfig.cache
+/Users/myinuddin/RiderProjects/Multi-Level Blogging System/Multi-Level Blogging System/obj/Debug/net8.0/ref/Multi-Level Blogging System.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/appsettings.Development.json
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/appsettings.json
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.deps.json
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.runtimeconfig.json
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Multi-Level Blogging System.pdb
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Bcl.Memory.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.csproj.AssemblyReference.cache
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.AssemblyInfoInputs.cache
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.AssemblyInfo.cs
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.csproj.CoreCompileInputs.cache
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.MvcApplicationPartsAssemblyInfo.cs
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.MvcApplicationPartsAssemblyInfo.cache
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets.build.json
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets.development.json
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.Multi-Level Blogging System.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.build.Multi-Level Blogging System.props
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Multi-Level Blogging System.props
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Multi-Level Blogging System.props
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/scopedcss/bundle/Multi-Level Blogging System.styles.css
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Le.FC533EF9.Up2Date
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/refint/Multi-Level Blogging System.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.pdb
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/Multi-Level Blogging System.genruntimeconfig.cache
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/obj/Debug/net8.0/ref/Multi-Level Blogging System.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Humanizer.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Npgsql.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/System.CodeDom.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/myinuddin/Documents/codebase/Dot Net/Multi-Level Blogging System/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
