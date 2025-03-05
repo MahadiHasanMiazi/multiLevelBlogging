@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Multi_Level_Blogging_System.Extensions;
 using Multi_Level_Blogging_System.Models;
+using Multi_Level_Blogging_System.Seeders;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,12 +14,20 @@ builder.Services.AddAuthentication()
     .AddCookie(IdentityConstants.ApplicationScheme)
     .AddBearerToken(IdentityConstants.BearerScheme);
 
-builder.Services.AddIdentityCore<User>()
+builder.Services.AddIdentityCore<User>(options =>
+    {
+        options.User.RequireUniqueEmail = true;
+    })
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<BlogDbContext>()
     .AddApiEndpoints();
 
+
 builder.Services.AddDbContext<BlogDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("SampleConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DatabaseConnection")));
+
+builder.Services.AddHostedService<RoleSeeder>();
+
 
 
 
@@ -41,7 +50,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapIdentityApi<User>();
 app.MapControllers();
-
 
 
 
