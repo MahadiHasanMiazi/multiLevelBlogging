@@ -19,7 +19,7 @@ public class RoleSeeder : IHostedService
             var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
 
-            string[] roles = { "Admin", "User", "Manager"};
+            string[] roles = { "Admin", "User", "Editor"};
 
             foreach (var role in roles)
             {
