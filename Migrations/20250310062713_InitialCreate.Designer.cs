@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Multi_Level_Blogging_System.Migrations
 {
     [DbContext(typeof(BlogDbContext))]
-    [Migration("20250308043314_AddDeleteConfirmPasswordToUsers")]
-    partial class AddDeleteConfirmPasswordToUsers
+    [Migration("20250310062713_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -160,8 +160,11 @@ namespace Multi_Level_Blogging_System.Migrations
 
             modelBuilder.Entity("Multi_Level_Blogging_System.Models.Blog", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("text");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Content")
                         .IsRequired()

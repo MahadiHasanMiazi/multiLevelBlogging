@@ -13,18 +13,26 @@ public class GenerateToken
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ThisIsASecretKeyThatIsAtLeast32CharsLong!"));
         var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-        var claims = new[]
+        var claims = new List<Claim>
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Id),
             new Claim(JwtRegisteredClaimNames.Email, user.Email),
             new Claim("firstName", user.FirstName),
             new Claim("lastName", user.LastName),
-            new Claim("userType", user.UserType.ToString()),
+            new Claim(ClaimTypes.Role, user.UserType.ToString()),
+            
         };
+        // var roles = new[] { "Admin", "Editor", "User" };
+        //
+        // // Add multiple roles as claims
+        // foreach (var role in roles)
+        // {
+        //     claims.Add(new Claim(ClaimTypes.Role, role));  // Add each role as a separate claim
+        // }
 
         var token = new JwtSecurityToken(
-            issuer: "yourdomain.com",
-            audience: "yourdomain.com",
+            issuer: "https://localhost:5067",
+            audience: "https://localhost:5067",
             claims: claims,
             expires: DateTime.UtcNow.AddHours(2),
             signingCredentials: credentials
@@ -32,4 +40,5 @@ public class GenerateToken
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
+    
 }

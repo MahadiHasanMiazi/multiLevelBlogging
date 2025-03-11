@@ -1,7 +1,11 @@
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Multi_Level_Blogging_System.Extensions;
+using Multi_Level_Blogging_System.Middleware;
 using Multi_Level_Blogging_System.Models;
 using Multi_Level_Blogging_System.Seeders;
 
@@ -10,10 +14,29 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+// builder.Services.AddAuthentication()
+//     .AddCookie(IdentityConstants.ApplicationScheme)
+//     .AddBearerToken(IdentityConstants.BearerScheme);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.RequireHttpsMetadata = false; // Set to true in production
+        options.SaveToken = true;
+        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ThisIsASecretKeyThatIsAtLeast32CharsLong!")),
+            ValidIssuer = "https://localhost:5067", // Change this to your actual issuer
+            ValidAudience = "https://localhost:5067", // Change this to your actual audience
+            // IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(
+            //     System.Text.Encoding.UTF8.GetBytes("ThisIsASecretKeyThatIsAtLeast32CharsLong!")) // Change this key
+        };
+    });
 builder.Services.AddAuthorization();
-builder.Services.AddAuthentication()
-    .AddCookie(IdentityConstants.ApplicationScheme)
-    .AddBearerToken(IdentityConstants.BearerScheme);
 
 builder.Services.AddIdentityCore<User>(options =>
     {
@@ -30,8 +53,6 @@ builder.Services.AddDbContext<BlogDbContext>(options =>
 builder.Services.AddHostedService<RoleSeeder>();
 
 
-
-
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -42,6 +63,33 @@ builder.Services.AddSwaggerGen(c =>
         Title = "Auth API",
         Version = "v1"
     });
+    
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Enter 'Bearer {your_token}'"
+    });
+
+    // ✅ Require Token in API Requests
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+    
 });
 
 var app = builder.Build();
@@ -57,7 +105,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapIdentityApi<User>();
+app.UseAuthentication(); // ⬅️ Must come before UseAuthorization()
+app.UseAuthorization();
 app.MapControllers();
+app.UseMiddleware<UnauthorizedMiddleware>();
 
 
 
