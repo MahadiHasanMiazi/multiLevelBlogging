@@ -1,7 +1,6 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Multi_Level_Blogging_System.Extensions;
 using Multi_Level_Blogging_System.Models;
 using Multi_Level_Blogging_System.Models.Request;
 using Multi_Level_Blogging_System.Models.Response;
@@ -43,6 +42,10 @@ public class BlogController : Controller
     {
         try
         {
+            blogDto.Content.Required(nameof(blogDto.Content));
+            blogDto.Title.Required(nameof(blogDto.Title));
+            blogDto.Category.Required(nameof(blogDto.Category));
+            
             var categoryOnDb = _context.Categories
                 .FirstOrDefault(c => c.Name.ToLower() == blogDto.Category.ToLower());
             var categoryId = categoryOnDb?.Id ?? 0;

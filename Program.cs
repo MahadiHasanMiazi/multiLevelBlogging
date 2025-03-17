@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Multi_Level_Blogging_System.Common.helper;
 using Multi_Level_Blogging_System.Extensions;
 using Multi_Level_Blogging_System.Middleware;
 using Multi_Level_Blogging_System.Models;
@@ -51,6 +52,8 @@ builder.Services.AddDbContext<BlogDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DatabaseConnection")));
 
 builder.Services.AddHostedService<RoleSeeder>();
+// builder.Services.AddTransient<IPasswordValidator<User>, CustomPasswordValidation>();
+
 
 
 // Add services to the container.

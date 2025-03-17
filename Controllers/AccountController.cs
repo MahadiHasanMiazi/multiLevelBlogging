@@ -5,6 +5,7 @@ using Multi_Level_Blogging_System.Common.Enums;
 using Multi_Level_Blogging_System.Models;
 using Multi_Level_Blogging_System.Models.Request;
 using Multi_Level_Blogging_System.Common.helper;
+using Multi_Level_Blogging_System.Extensions;
 using Multi_Level_Blogging_System.Models.Response;
 
 namespace Multi_Level_Blogging_System.Controllers;
@@ -31,6 +32,12 @@ public class AccountController : Controller
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState);
+        
+        register.FirstName.Required(nameof(register.FirstName));
+        register.Email.Required(nameof(register.Email));
+        register.Password.Required(nameof(register.Password));
+        register.ConfirmPassword.Required(nameof(register.ConfirmPassword));
+        register.Email.EmailValidation();
         
         if (!register.Password.Equals(register.ConfirmPassword)) 
             return BadRequest(new { message = "Passwords and confirmation password do not match." });
@@ -72,16 +79,19 @@ public class AccountController : Controller
     
     
     [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] Login model)
+    public async Task<IActionResult> Login([FromBody] Login login)
     {
-        var user = await _userManager.FindByEmailAsync(model.Email);
+        login.Email.Required(nameof(login.Email));
+        login.Password.Required(nameof(login.Password));
+        login.Email.EmailValidation();
+        var user = await _userManager.FindByEmailAsync(login.Email);
 
         if (user == null)
         {
             return Unauthorized(new { message = "User not found!" });
         }
         
-        var isPasswordMatch = PasswordHash.VerifyPassword(model.Password, user.Password);
+        var isPasswordMatch = PasswordHash.VerifyPassword(login.Password, user.Password);
 
         // var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
         //
