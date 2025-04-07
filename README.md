@@ -1,5 +1,6 @@
 # Clone the repository
 git clone https://github.com/MahadiHasanMiazi/multiLevelBlogging.git
+
 cd multiLevelBlogging
 
 # Restore dependencies
